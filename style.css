@@ -1,0 +1,65 @@
+body{
+  background-color: aqua;
+}
+
+
+
+.body {
+    height: 600px;
+    width: 800px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.text{
+    position: absolute; /* add this */
+    transform: translate(350px,0px);
+    font-size: 32px; /* add this */
+    font-weight: bold; /* add this */
+    color: #000000; /* add this */
+    text-align: center; 
+}
+  
+#video-container {
+  display: none; /* initially hide the video container */
+  position: fixed; /* make the video container full screen */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+  #play-button-yes {
+    background-color: #fa3ca1;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translate(275px,80px);
+  }
+  #play-button-bohot{
+    background-color: #fa3ca1;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translate(400px,35px);
+  }
+  #myVideo {
+    width: 90%;
+    height: 95%;
+    border: 10px;
+    
+    transform: rotate(-90deg); /* rotate the video to the left */
+    transform: translate(80px,20px);
+    
+  }
